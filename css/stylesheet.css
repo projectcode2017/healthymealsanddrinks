@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+
+header {
+  font-family: 'Russo One', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 1em;
+  clear: left;
+  background-color: #FCDFA6;
+}
+
+h3 {
+  font-family: 'Didact Gothic', sans-serif;
+  text-align: center;
+  font-size: 35px;
+}
+
+h4 {
+  text-align: center;
+  background-color: #FCDFA6;
+  font-size: 25px;
+}
+
+p {
+  font-size: 35px;
+  text-align: justify;
+  position: absolute;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+body {
+  background-color: #FCDFA6;
+}
+
+h2 { 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+}
+
+article {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 30px;
+}
+
+/* Container holding "contact us page" info */
+.container {
+    position: relative;
+    text-align: left;
+    font-size: 30px;
+    color: black;
+}
+
+/* Centered text for contact us info */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Container holding the image and the text */
+.container2 {
+    position: relative;
+    text-align: left;
+    font-size: 30px;
+    color: #000000;
+}
+
+/* Centered text */
+.centered2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Facebook button with white text */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: blue;
+}
+
+/* Twitter button with white text */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+/* Pinterest button with white text */
+.fa-pinterest {
+  background: #CB2027;
+  color: white;
+}
+
+/* Youtube button with white text */
+
+.fa-youtube {
+  background: #BB0000;
+  color: white;
+}
+
+footer {
+  font-family: 'Russo One', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 1em;
+  clear: left;
+  background-color: #89C460;
+}
+
+.topnav {
+    background-color: #89C460;
+    overflow: hidden;
+    text-align: center;
+    padding: 15px;
+}
+
+.topnav a {
+    float: center;
+    display: flex-wrap;
+    color: #000000;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none; 
+    font-size: 40px;
+}
+
+.topnav a:hover {
+    background-color: white;
+    color: red;
+}
+
+/* Smoothies topnav */
+
+.topnav2 { 
+    background-color: #FCDFA6;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+}
+
+.topnav2 a {
+    display: left;
+    color: #000000;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.topnav2 a:hover {
+    background-color: #89C460;
+    color: red;
+}
+
+.smoothies {
+  display: flex;
+  overflow: hidden;
+  background-color: #FCDFA6;
+}
+
+.smoothies2 {
+  display: flex;
+  overflow: hidden;
+  background-color: #FCDFA6;
+}
+
+#container {
+  display: flex-around;
+}
+
+/* Home page recipe boxes */
+
+#recipes {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+}
+
+#recipes>div {
+    margin: 5px;
+    width: 50%;
+    /*height: 1875px;*/
+    border: thick green solid;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #89C460;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #FCDFA6;
+    padding: 20px;
+}
